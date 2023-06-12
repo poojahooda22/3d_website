@@ -1,29 +1,27 @@
-import { useState } from 'react'
+import { BrowserRouter } from "react-router-dom";
 
-import './App.css'
+import { About, Contact, Experience, Feedback, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        
+    <BrowserRouter>
+      <div className='relative z-0 bg-primary'>
+        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+          <Navbar />
+          <Hero />
+        </div>
+        <About />
+        <Experience />
+        <Tech />
+        <Works />
+        <Feedback />
+        <div className='relative z-0'>
+          <Contact />
+          <StarsCanvas />
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
