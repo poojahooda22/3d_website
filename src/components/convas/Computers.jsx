@@ -8,7 +8,12 @@ const Computers = () => {
 
     const computer = useGLTF('/models/computer.glb');
     return (
-        <div>Computers</div>
+        <mesh>
+            <hemisphereLight intensity={0.35}
+            grroundColor="black"/>
+            <pintLight intensity={1}/>
+            <primitive/>
+        </mesh>>
     )
 }
 
