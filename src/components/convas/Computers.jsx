@@ -28,8 +28,10 @@ const ComputersCanvas = () => {
             <Suspense fallback={<CanvasLoader/>}>
                 <OrbitControls
                 />
-
+                <Computers/>
             </Suspense>
+
+            <Preload/>
 
         </Canvas>
     )
