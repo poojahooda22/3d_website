@@ -27,11 +27,14 @@ const ComputersCanvas = () => {
         gl={{preserveDrawingBuffer: true}}>
             <Suspense fallback={<CanvasLoader/>}>
                 <OrbitControls
+                enableZoom={false}
+                maxPolarAngale={Math.PI / 2}
+                minPolarAngle={Math.PI / 2}
                 />
                 <Computers/>
             </Suspense>
 
-            <Preload/>
+            <Preload all/>
 
         </Canvas>
     )
