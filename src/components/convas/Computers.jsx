@@ -9,9 +9,9 @@ const Computers = () => {
     const computer = useGLTF('/models/computer.glb');
     return (
         <mesh>
-            <hemisphereLight intensity={0.35}
+            {/* <hemisphereLight intensity={0.35}
             grroundColor="black"/>
-            <pointLight intensity={1}/>
+            <pointLight intensity={1}/> */}
             <primitive
             object={computer.scene}
             scale={0.75}
