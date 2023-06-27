@@ -15,7 +15,7 @@ const Computers = () => {
             <spotLight
                 position={[-20, 50, 10]}
                 angle={0.12}
-                />
+                penumbra={1}/>
             <primitive
             object={computer.scene}
             scale={0.75}
