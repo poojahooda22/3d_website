@@ -12,6 +12,8 @@ const Computers = () => {
             <hemisphereLight intensity={0.35}
             grroundColor="black"/>
             <pointLight intensity={1}/>
+            <spotLight
+                position={[-20, 50, 10]}/>
             <primitive
             object={computer.scene}
             scale={0.75}
