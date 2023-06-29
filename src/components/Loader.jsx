@@ -5,7 +5,9 @@ const Loader =() => {
     const{progress} = useProgress();
 
     return (
-        <div></div>
+        <Html>
+            
+        </Html>
     )
 }
 
