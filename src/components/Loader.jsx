@@ -10,6 +10,8 @@ const Loader =() => {
             <p
             style = {
                 {
+                    fontSize: 14,
+                    color: '#fff',
                     
                 }
             }>{progress.toFixed(2)}%</p>
