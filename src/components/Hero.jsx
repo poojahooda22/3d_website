@@ -25,7 +25,7 @@ const Hero = () => {
 
             <ComputersCanvas/>
             <div className="absolute xs:bottom-10
-            bottom-32 ">
+            bottom-32 w-full flex justify-center">
 
             </div>
 
