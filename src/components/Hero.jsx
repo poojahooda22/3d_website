@@ -29,6 +29,7 @@ const Hero = () => {
             items-center">
                 <a href="#about"
                 >
+                    <div></div>
 
                 </a>
 
