@@ -28,7 +28,8 @@ const Hero = () => {
             bottom-32 w-full flex justify-center
             items-center">
                 <a href="#about">
-                    <div className="w-[35px] h-[64px]">
+                    <div className="w-[35px] h-[64px]
+                    rounded-3xl border-4">
                         <svg className="animate-bounce w-6 h-6 text-white-100"/>
                     </div>
 
