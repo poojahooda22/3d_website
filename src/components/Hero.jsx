@@ -29,7 +29,9 @@ const Hero = () => {
             items-center">
                 <a href="#about"
                 >
-                    <div></div>
+                    <div>
+                        <svg className="animate-bounce w-6 h-6 text-white-100"/>
+                    </div>
 
                 </a>
 
