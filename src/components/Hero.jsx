@@ -1,4 +1,4 @@
-// import {motion} from 'framer-motion';
+import {motion} from 'framer-motion';
 
 import {styles} from '../styles';
 import {ComputersCanvas} from './canvas';
@@ -31,7 +31,7 @@ const Hero = () => {
                     <div className="w-[35px] h-[64px]
                     rounded-3xl border-4 border-secondary
                     flex justidy-center items-start p-2">
-                        
+                        <motion.dev></motion.dev>
                     </div>
 
                 </a>
