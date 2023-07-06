@@ -33,7 +33,7 @@ const Hero = () => {
                     flex justidy-center items-start p-2">
                         <motion.dev
                         animate={
-                            {y: []}
+                            {y: [0,24,0]}
                         }>
 
                         </motion.dev>
