@@ -34,7 +34,7 @@ const Hero = () => {
                         <motion.dev
                         animate={
                             {y: [0,24,0]}
-                        }>
+                        }transition>
 
                         </motion.dev>
                     </div>
