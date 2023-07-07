@@ -36,6 +36,7 @@ const Hero = () => {
                             {y: [0,24,0]}
                         }
                         transition={{
+                            duration:
 
                         }}
                         >
