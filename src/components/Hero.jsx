@@ -41,7 +41,7 @@ const Hero = () => {
                             repeatType: 'loop'
 
                         }} 
-                        className
+                        className=""
                         >
 
                         </motion.dev>
