@@ -40,7 +40,8 @@ const Hero = () => {
                             repeat: Infinity,
                             repeatType: 'loop'
 
-                        }}
+                        }} 
+                        className
                         >
 
                         </motion.dev>
