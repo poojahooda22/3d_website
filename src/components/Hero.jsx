@@ -41,7 +41,7 @@ const Hero = () => {
                             repeatType: 'loop'
 
                         }} 
-                        className=""
+                        className="w-3 h-3 rounded-full "
                         >
 
                         </motion.dev>
