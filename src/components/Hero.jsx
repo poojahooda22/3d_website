@@ -42,7 +42,7 @@ const Hero = () => {
 
                         }} 
                         className="w-3 h-3 rounded-full 
-                        bg-secondary
+                        bg-secondary mb-
                         "
                         >
 
