@@ -30,7 +30,7 @@ const Computers = () => {
 
 const ComputersCanvas = () => {
 
-    const [] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
     return (
         <Canvas
         frameLoop="demand"
