@@ -29,6 +29,8 @@ const Computers = () => {
 }
 
 const ComputersCanvas = () => {
+
+    const [] = useState(false);
     return (
         <Canvas
         frameLoop="demand"
