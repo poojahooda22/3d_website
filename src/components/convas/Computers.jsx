@@ -34,7 +34,11 @@ const ComputersCanvas = () => {
 
 
     useEffect(() > {
-        
+        first
+
+        return () => {
+            
+        }
     })
     return (
         <Canvas
