@@ -38,10 +38,7 @@ const ComputersCanvas = () => {
 
        setIsMobile(mediaQuery.matches);
 
-        return () => {
-            
-        }
-    })
+    }, [isMobile]);
     return (
         <Canvas
         frameLoop="demand"
