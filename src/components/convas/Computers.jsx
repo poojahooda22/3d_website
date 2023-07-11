@@ -34,7 +34,7 @@ const ComputersCanvas = () => {
 
 
     useEffect(() > {
-        first
+       const mediaQuery  window.matchMedia('(max-width: 500)');
 
         return () => {
             
