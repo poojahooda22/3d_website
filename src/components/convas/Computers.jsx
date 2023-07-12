@@ -34,6 +34,9 @@ const ComputersCanvas = () => {
 
 
     useEffect(() => {
+        const mediaQuery = window.matchMedia(
+            
+        )
     }, [])
     return (
         <Canvas
