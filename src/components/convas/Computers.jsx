@@ -33,7 +33,7 @@ const ComputersCanvas = () => {
     const [isMobile, setIsMobile] = useState(false);
 
 
-    useEffect(() > {
+    useEffect(() => {
     }, [])
     return (
         <Canvas
