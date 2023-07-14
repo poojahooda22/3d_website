@@ -38,7 +38,7 @@ const ComputersCanvas = () => {
             ('max-width: 500')
             setIsMobile(mediaQuery.matches);
         )
-    }, [])
+    }, [third])
     return (
         <Canvas
         frameLoop="demand"
