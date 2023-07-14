@@ -38,7 +38,9 @@ const ComputersCanvas = () => {
             ('max-width: 500')
             setIsMobile(mediaQuery.matches);
 
-            const handleMediaQueryChange
+            const handleMediaQueryChange = (event) => {
+                
+            }
         )
     }, [third])
     return (
