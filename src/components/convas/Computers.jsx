@@ -39,10 +39,10 @@ const ComputersCanvas = () => {
             setIsMobile(mediaQuery.matches);
 
             const handleMediaQueryChange = (event) => {
-                setIsMobile
+                setIsMobile(event.matches);
             }
         )
-    }, [third])
+    }, [third]);
     return (
         <Canvas
         frameLoop="demand"
