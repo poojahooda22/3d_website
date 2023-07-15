@@ -42,7 +42,9 @@ const ComputersCanvas = () => {
                 setIsMobile(event.matches);
             }
             mediaQuery.addListerner('change', handleMediaQueryChange);
-            
+            return () => {
+                
+            }
         
     }, [third]);
     return (
