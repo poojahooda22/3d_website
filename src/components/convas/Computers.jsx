@@ -43,7 +43,7 @@ const ComputersCanvas = () => {
             }
             mediaQuery.addListerner('change', handleMediaQueryChange);
             return () => {
-                mediaQuery.removeEventListener
+                mediaQuery.removeEventListener('change',)
             }
         
     }, [third]);
